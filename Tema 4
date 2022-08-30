@@ -1,0 +1,51 @@
+let numeroif= 0;
+
+if (numeroif >1){
+    console.log("es positivo")
+    if(numeroif <0)
+    console.log("es negativo")
+    if(numeroif = 0)
+console.log("o igual")
+}
+
+while(numeroif <3){
+ 
+     numeroif= numeroif + 1;
+ console.log("primer whilw",numeroif);
+}
+do{
+ 
+  console.log(numeroif)
+    numeroif= numeroif + 1;
+
+}
+while (numeroif <3){
+    numeroif= numeroif + 1;
+}
+
+for(let numeroFor= 0; numeroFor <=3; numeroFor++){
+    console.log(numeroFor)
+    
+}
+var estacion= "Invierno";
+
+switch(estacion){
+    case "Verano":
+    console.log("es Verano");
+    break;
+    
+case "Otoño":
+console.log("es Otoño");
+break;
+
+case "Invierno":
+console.log("es Invierno");
+break;
+
+case "Primavera":
+console.log("es Primavera");
+break;
+
+default:
+console.log("estoy en default");
+}
