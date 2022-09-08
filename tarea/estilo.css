@@ -1,0 +1,17 @@
+button{
+    display: inline-block;
+    padding: 20px 40px;
+    background-color: orange;
+    border-radius: 5px;
+    border: none;
+}
+button:hover{
+    color: white;
+    background: green;
+}
+button:hover > span{
+    display: none;
+}
+button:hover::after {
+    content: '¡Hecho!';
+}
