@@ -1,0 +1,22 @@
+.btn-modern{
+    display: inline-block;
+    padding: 20px 40px;
+    background-color: brown;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn-modern:hover {
+    transform: translate(100%);
+    background-color: blueviolet;
+    animation: traslacion 4s ease-in-out infinite forwards alternate;
+    color: orange;
+    text-shadow: 0.1em 0.1em #333;
+}
+
+@keyframes traslacion {
+    0% {
+        background-color: beige;
+        transform: translateX(0%) translateY(-5px);
+    }
+}
