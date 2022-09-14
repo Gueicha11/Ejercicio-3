@@ -1,0 +1,28 @@
+.contenedor{
+background-color: peru;
+color: white;
+display: flex;
+flex-direction: column;
+}
+
+.item{
+    background-color: burlywood;
+    color: #fff;  
+}
+
+
+.principal{
+    padding: 50px;
+    flex-grow:2;
+}
+
+@media screen and (max-width: 640px) {
+.contenedor{
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+}
+
+body{
+    display: flex;
+}
